@@ -1,0 +1,17 @@
+{
+  "appName": "APP_NAME",
+  "server": {
+    "port": "SERVER_PORT"
+  },
+  "wechat": {
+    "appId": "WECHAT_APPID",
+    "secret": "WECHAT_SECRET"
+  },
+  "file": {
+    "name": "FILE_NAME",
+    "content": "FILE_CONTENT"
+  },
+  "redis": "REDIS_URI",
+  "specialToken": "SPECIAL_TOKEN",
+  "sentryDSN": "SENTRY_DSN"
+}

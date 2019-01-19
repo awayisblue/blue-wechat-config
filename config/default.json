@@ -1,0 +1,17 @@
+{
+  "appName": "__blue-wechat-config",
+  "server": {
+    "port": 3003
+  },
+  "wechat": {
+    "appId": "wxd49b5b58202f68b6",
+    "secret": "c22f0a48e86801ff817c4fafdffe5eb6"
+  },
+  "file": {
+    "name": "test",
+    "content": "test"
+  },
+  "redis": "redis://127.0.0.1:6379/1",
+  "specialToken": "token@example",
+  "sentryDSN": ""
+}
