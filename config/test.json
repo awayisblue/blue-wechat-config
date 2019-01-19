@@ -12,6 +12,6 @@
     "content": "test"
   },
   "redis": "redis://127.0.0.1/2",
-  "specialToken": "token@example",
+  "specialToken": "",
   "sentryDSN": ""
 }

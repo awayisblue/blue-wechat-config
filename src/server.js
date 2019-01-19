@@ -18,7 +18,4 @@ app.use(route.routes())
 app.on('error', function (err) {
   logger.error(err)
 })
-logger.log('server start', {
-  time: new Date().toString()
-})
-module.exports = app.listen(port, () => logger.log(`Listen on ${port}...`))
+module.exports = app.listen(port, () => logger.info(`Listen on ${port}...`))

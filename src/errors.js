@@ -1,4 +1,3 @@
-let errCode = 1000
 module.exports = {
   commonStatus: {
     '200': {
@@ -47,28 +46,28 @@ module.exports = {
   PARAM_ERROR: {
     statusCode: 400,
     data: {
-      code: errCode++,
+      code: 1000,
       msg: '参数错误'
     }
   },
   SERVER_ERROR: {
     statusCode: 500,
     data: {
-      code: errCode++,
+      code: 1001,
       msg: '服务器错误'
     }
   },
   UNAUTHORIZED: {
     statusCode: 403,
     data: {
-      code: errCode++,
+      code: 1002,
       msg: '未登录'
     }
   },
   NOT_FOUND: {
     statusCode: 404,
     data: {
-      code: errCode++,
+      code: 1003,
       msg: '访问资源不存在'
     }
   }
